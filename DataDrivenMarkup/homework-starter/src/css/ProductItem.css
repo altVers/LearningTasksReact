@@ -1,0 +1,35 @@
+.product-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-card__img {
+    max-width: 200px;
+}
+
+.product-card__price-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.product-card__price {
+    color: black;
+    font-weight: 700;
+}
+
+.product-card__price--discount {
+    color: green;
+    font-weight: 700;
+}
+
+.product-card__price--no-discount {
+    color: gray;
+    font-weight: 700;
+    text-decoration: line-through;
+}
+
+.product-card__title {
+    margin: 0;
+    font-weight: normal;
+}
